@@ -1,0 +1,30 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "images & videos gallery, with users accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manutj/CN-Proyect.git"
+  },
+  "author": "Manuel Tejada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manutj/CN-Proyect/issues"
+  },
+  "homepage": "https://github.com/manutj/CN-Proyect#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "celebrate": "^12.1.1",
+    "cloudinary": "^1.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "nodemon": "^2.0.4"
+  }
+}
