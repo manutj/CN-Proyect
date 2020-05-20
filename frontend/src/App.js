@@ -5,18 +5,17 @@ import Login from './views/login';
 import Home from './views/home';
 
 //Components
-import Navigation from './components/navigaton/navigation'
+import Navigation from './components/navigaton'
 
 //MISC
 import {
   BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-import Navigation from './components/navigaton';
 
 function App() {
   return (
     <React.Fragment>
-    <Navigation></Navigation>
     <Router>
+    <Navigation></Navigation>
     <Switch>
           <Route path="/login">
             <Login />
