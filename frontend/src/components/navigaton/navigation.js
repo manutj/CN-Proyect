@@ -28,7 +28,7 @@ const Example = (props) => {
               <NavLink tag={Link} to="/login/">Login</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/signup">Signup</NavLink>
+                <NavLink tag={Link} to="/signup/">Signup</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
