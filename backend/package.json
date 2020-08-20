@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/manutj/CN-Proyect#readme",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "celebrate": "^12.1.1",
     "cloudinary": "^1.21.0",
     "dotenv": "^8.2.0",
